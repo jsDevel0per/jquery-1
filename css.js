@@ -350,6 +350,7 @@ jQuery.extend({
 // 1、只读与可写
 // 2、获取的对象范围
 // 关于window.getComputedStyle，延伸阅读 http://www.zhangxinxu.com/wordpress/2012/05/getcomputedstyle-js-getpropertyvalue-currentstyle/
+// defaultCssDimensionValues top=112 left=180 width=149 height=231
 // IE6-8不支持
 if ( window.getComputedStyle ) {
 	curCSS = function( elem, name ) {
